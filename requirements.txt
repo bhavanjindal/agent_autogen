@@ -1,0 +1,12 @@
+
+
+
+
+## needs python 3.8 or more .. needs openai >= 1
+pyautogen    # pip install pyautogen
+
+## optional dependencies -- docker
+
+## to read environment variables as key-value pairs
+
+python-dotenv    ## pip install python-dotenv
