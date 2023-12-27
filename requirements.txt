@@ -21,3 +21,10 @@ pymilvus ## pip install milvus
 
 ## installing langchain to use openai in general
 langchain
+
+
+#### serpapi -- pip install google-search-results
+google-search-results
+
+#### -- ModuleNotFoundError: No module named 'numexpr'
+numexpr   ## error while running agent ... pip install numexpr
