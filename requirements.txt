@@ -10,3 +10,14 @@ pyautogen    # pip install pyautogen
 ## to read environment variables as key-value pairs
 
 python-dotenv    ## pip install python-dotenv
+
+
+## for LLM and chat LMs, will be using OpenAI
+
+
+## for any vectorestore, will be using Milvus vectore DB
+pymilvus ## pip install milvus
+
+
+## installing langchain to use openai in general
+langchain

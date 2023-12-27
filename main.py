@@ -1,16 +1,10 @@
-# This is a sample Python script.
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+from autogen import AssistantAgent, UserProxyAgent, config_list_from_json
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+config_list = config_list_from_json('OAI_CONFIG_LIST')
 
+assistant = AssistantAgent("assistant", llm_config={"config_list": config_list})
+user_proxy = UserProxyAgent("user_proxy", code_execution_config={"work_dir": "coding"})
+user_proxy.initiate_chat(assistant, message="plot a chart of TSLA stock price change YTD.")
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
