@@ -21,10 +21,15 @@ pymilvus ## pip install milvus
 
 ## installing langchain to use openai in general
 langchain
-
+langchain_experimental   ## in order to import experimental features e g create_csv_agent
 
 #### serpapi -- pip install google-search-results
 google-search-results
 
 #### -- ModuleNotFoundError: No module named 'numexpr'
 numexpr   ## error while running agent ... pip install numexpr
+
+
+### pip install pandas
+pandas ## needed for csv agent to work
+tabulate  ## also needed by csv agent
