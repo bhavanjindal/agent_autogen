@@ -33,3 +33,11 @@ numexpr   ## error while running agent ... pip install numexpr
 ### pip install pandas
 pandas ## needed for csv agent to work
 tabulate  ## also needed by csv agent
+
+
+## yfinance to ask finance related questions and build agents
+yfinance # pip install yfinance
+
+
+### need pyspark for spark agent type -- in order to create spark session
+pyspark # pip install pyspark
