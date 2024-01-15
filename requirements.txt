@@ -41,3 +41,6 @@ yfinance # pip install yfinance
 
 ### need pyspark for spark agent type -- in order to create spark session
 pyspark # pip install pyspark
+
+## flask in order to create UI -- custom chatbots
+flask
